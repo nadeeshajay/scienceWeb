@@ -1,0 +1,472 @@
+/* Global */
+
+/* Navbar */
+.Nav-bar a{
+    color: black;
+}
+
+.Logo-side {
+    justify-content: inherit;
+}
+
+.Search-side {
+    float: right;
+}
+
+.Logo-name{
+    font-family: 'Pangolin', cursive;
+}
+
+.Search-area {
+    max-width: 180px;
+}
+
+.Lang-btn a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Signup-btn {
+    color: black;
+}
+
+
+/* Left  and Right Sidebar common */
+.Left-bar , .Right-bar {
+    background-color:#fac700;
+}
+.Left-bar a , .Right-bar a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+.Left-bar a:hover , .Right-bar a:hover{
+    color: white;
+}
+
+/* Middle bar */
+.Middle-bar{
+    background-color: black;
+}
+.Carousel-img{
+    filter: brightness(0.4);
+}
+
+/* Mobile Showcase */
+.Showcase-mob img{
+    filter: brightness(0.3) ;
+}
+
+.Showcase-content-mob {
+    color: white;
+    position: absolute;
+    top: 160px;
+}
+
+@media(max-width : 730px) {
+    .Showcase-content-mob{
+        top: 140px;
+    }
+}
+
+@media(max-width : 645px) {
+    .Showcase-content-mob{
+        top: 120px;
+    }
+}
+
+@media(max-width : 585px) {
+    .Showcase-content-mob{
+        top: 100px;
+    }
+}
+
+@media(max-width : 525px) {
+    .Showcase-content-mob{
+        top: 90px;
+    }
+}
+
+@media(max-width : 485px) {
+    .Showcase-content-mob{
+        top: 80px;
+    }
+}
+
+@media(max-width : 440px) {
+    .Showcase-content-mob{
+        top: 80px;
+        font-size: 14px;
+    }
+    .Showcase-content-mob h5{
+        font-size: 16px;
+    }
+    .Showcase-content-mob a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width : 390px) {
+    .Showcase-content-mob{
+        top: 75px;
+        font-size: 13px;
+    }
+    .Showcase-content-mob h5{
+        font-size: 15px;
+    }
+    .Showcase-content-mob a{
+        font-size: 13px;
+    }
+}
+
+@media(max-width : 360px) {
+    .Showcase-content-mob{
+        top: 70px;
+        font-size: 12px;
+        padding: 1px 8px 2px 8px !important;
+    }
+    .Showcase-content-mob h5{
+        font-size: 14px;
+    }
+    .Showcase-content-mob a{
+        font-size: 12px !important;
+        padding: 2px !important;
+    }
+}
+
+@media(max-width : 325px) {
+    .Showcase-content-mob {
+        left: 35%;
+        padding-top: 30px !important;
+    }
+    .Showcase-content-mob p{
+        display: none;
+    }
+}
+
+.Showcase-content-mob a{
+    text-decoration: none;
+    color: #fac700;
+    border: 1px solid #fac700;
+    border-radius: 4px;
+    padding: 2px 4px 2px 4px;
+}
+
+.Showcase-content-mob a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Showcase-content-mob a:active{
+    border-width: 2px;
+    font-weight: bold;
+}
+/* Feed */
+.Feed{
+    color: white;
+}
+
+.Feed-post{
+    border: 12px solid white;
+    border-radius: 10px;
+}
+
+.Recent-topic{
+    font-family: 'Pangolin', cursive;
+    color: black;
+}
+
+.Post-pic{
+    filter: brightness(0.2);
+}
+
+.Post-content{
+    width: 260px;
+    position:absolute;
+    top: 32%;
+    left: 22%;
+    text-align: center;
+}
+
+@media(max-width : 1024px) {
+    .Post-content{
+        width: 260px;
+        position:absolute;
+        top: 32%;
+        left: 19%;
+        text-align: center;
+    }
+}
+
+@media(max-width : 990px) {
+    .Post-content{
+        width: 250px;
+        position:absolute;
+        top: 28%;
+        left: 10%;
+        font-size: 14px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        font-size: 14px;
+        padding: 3px;
+        border-radius: 2px;
+        border :1px solid #fac700;
+    }
+}
+
+@media(max-width : 767px) {
+    .Post-content{
+        width: 260px;
+        position:absolute;
+        top: 32%;
+        left: 20%;
+        font-size: 16px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 8px;
+        border-radius: 3px;
+        border :1px solid #fac700;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 467px) {
+    .Post-content{
+        width: 230px;
+        position:absolute;
+        top: 28%;
+        left: 18%;
+        font-size: 15px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 4px;
+        border-radius: 2px;
+        border :1px solid #fac700;
+        font-size: 15px;
+    }
+    .Post-date{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 410px) {
+    .Post-content{
+        width: 230px;
+        position:absolute;
+        top: 24%;
+        left: 14%;
+        font-size: 14px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 3px;
+        border-radius: 2px;
+        border :1px solid #fac700;
+        font-size: 14px;
+    }
+    .Post-date{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 360px) {
+    .Post-content{
+        width: 230px;
+        position:absolute;
+        top: 24%;
+        left: 10%;
+        font-size: 13px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 0px;
+        border-radius: 0px;
+        border :1px solid #fac700;
+        font-size: 13px;
+    }
+    .Post-date{
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 325px) {
+    .Post-content{
+        width: 200px;
+        position:absolute;
+        top: 22%;
+        left: 10%;
+        font-size: 12px;
+    }
+    .Post-content h5{
+        font-size: 16px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 2px !important;
+        border-radius: 1px !important;
+        border :1px solid #fac700;
+        font-size: 12px !important;
+    }
+    .Post-date{
+        font-size: 10px !important;
+    }
+}
+
+@media(max-width: 295px) {
+    .Post-content{
+        width: 190px;
+        position:absolute;
+        top: 22%;
+        left: 6%;
+        font-size: 11px;
+    }
+    .Post-content h5{
+        font-size: 14px;
+    }
+    .Post-action-1 a , .Post-action-2 a{
+        text-decoration: none;
+        color: #fac700;
+        padding: 2px !important;
+        border-radius: 0.5px !important;
+        border :1px solid #fac700;
+        font-size: 11px !important;
+    }
+    .Post-date{
+        font-size: 9px !important;
+    }
+}
+
+.Post-action-1 a , .Post-action-2 a{
+    text-decoration: none;
+    color: #fac700;
+    padding: 5px;
+    border-radius: 3px;
+    border :1px solid #fac700;
+}
+
+.Post-action-1 a:hover , .Post-action-2 a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Post-action-1 a:active , .Post-action-2 a:active{
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.Post-action-1{
+    position: absolute;
+    top: 6%;
+    left: 2%;
+}
+
+.Post-action-2{
+    position: absolute;
+    top: 6%;
+    right: 2%;
+}
+
+.Post-date{
+    position: absolute;
+    bottom: 0.5%;
+    right: 4%;
+}
+
+/* Footer */
+.Footer {
+    background-color: black;
+    color: white;
+}
+.Author-social a{
+    font-size: 18px;
+    color: #fac700;
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.Social-bar a{
+    color: #fac700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.Extra-links a{
+    display: block;
+    color: #fac700;
+    text-decoration: none;
+}
+
+.Extra-links ul{
+    list-style-type: square ;
+}
+
+.Social-bar a:hover , .Extra-links a:hover{
+    color: white;
+
+}
+
+/* Sidebars for mobile */
+#Mobile-bar-right {
+    text-align: center;  
+}
+
+.Resources-mob{
+    background-color: #fac700;
+    color: black;
+}
+
+.Categories-mob {
+    background-color:black;
+    color: #fac700;
+}
+
+#Mobile-bar-right li , #Mobile-bar-right ul {
+    display: inline-block !important;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.Resources-mob a{
+    color: #fac700;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.Resources-mob a:hover{
+    color: white;
+}
+
+.Categories-mob a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #fac700;
+    border-radius: 3px;
+    background-color: #fac700;
+}
+
+.Categories-mob a:hover{
+    color: white;
+}
+
+
+
+/* ******************For mobile sign up page******************* */
+.Go-back-signup a{
+    text-decoration: none;
+}
+
+.Go-back-signup a:hover{
+    color: white;
+}
